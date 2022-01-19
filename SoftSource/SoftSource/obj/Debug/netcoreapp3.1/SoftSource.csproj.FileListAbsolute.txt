@@ -1,0 +1,13 @@
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\bin\Debug\netcoreapp3.1\SoftSource.exe
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\bin\Debug\netcoreapp3.1\SoftSource.deps.json
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\bin\Debug\netcoreapp3.1\SoftSource.runtimeconfig.json
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\bin\Debug\netcoreapp3.1\SoftSource.runtimeconfig.dev.json
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\bin\Debug\netcoreapp3.1\SoftSource.dll
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\bin\Debug\netcoreapp3.1\SoftSource.pdb
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\obj\Debug\netcoreapp3.1\SoftSource.csprojAssemblyReference.cache
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\obj\Debug\netcoreapp3.1\SoftSource.AssemblyInfoInputs.cache
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\obj\Debug\netcoreapp3.1\SoftSource.AssemblyInfo.cs
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\obj\Debug\netcoreapp3.1\SoftSource.csproj.CoreCompileInputs.cache
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\obj\Debug\netcoreapp3.1\SoftSource.dll
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\obj\Debug\netcoreapp3.1\SoftSource.pdb
+C:\Projects\FileRepository\Git\Test_Repo\SoftSource\SoftSource\SoftSource\obj\Debug\netcoreapp3.1\SoftSource.genruntimeconfig.cache

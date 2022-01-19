@@ -22,43 +22,63 @@ namespace SoftSource
                 if (counter > 1)
                     timeLabel += "s";
 
-               // Console.WriteLine(Environment.NewLine);
+                Console.WriteLine(Environment.NewLine);
                 Console.WriteLine(counter.ToString() + timeLabel);
-                Console.WriteLine(drawtLine(counter));
+                drawTriangle(counter);
                 System.Threading.Thread.Sleep(1000);
             }
         }
-        static string drawtLine(int ctr)
+        static void drawTriangle(int ctr)
         {
-            string response = "";
-            if (ctr == 1)
+            string p = "";
+            int e = ctr;
+            /////////////////////////////////////
+            #region Tip 
+            //
+            for (int z = 1; z <= ctr; z++)
             {
-                response = "*";
+                p += " ";
             }
-            else
+            p += "*";
+            Console.WriteLine(p);
+            //
+            #endregion
+            /////////////////////////////////////
+            for (int x = 1;x<ctr;x++)
             {
-                for (int l = 1; l <= ctr; l++)
+                p = "";
+              
+                for (int y = 1; y < e; y++)
                 {
-                    int leadingSpaces = ctr;
-                    int trailingSpaces = 9 - ctr;
-                    string theLine = "*";
-                    // string theLine = "";
-                   // if (l < ctr)
-                  //  {
-                        for (int ls = 1; ls <= leadingSpaces; ls++)
-                        {
-                            theLine += " ";
-                        }
-                   // }
-                    theLine += "*";
-                    response += theLine;
-                    response += Environment.NewLine;
+                    p += " ";
                 }
-
+                p += "*";
+                bool flop = false;
+                for (int z = 1; z <= (x * 2)-1; z++)
+                {
+                    if (x != ctr - 1)
+                    {
+                        p += " "; // NOT last line
+                    }
+                    else
+                    {
+                        // Last Line Logix
+                        if (flop)
+                        {
+                            flop = false;
+                            p += "*";
+                        }
+                        else
+                        {
+                            flop = true;
+                            p += " ";
+                        }
+                    }
+                }
+                p += "*";
+                e--;
+                Console.WriteLine(p);
             }
-            return response;
         }
-
-
     }
 }
